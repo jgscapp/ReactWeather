@@ -11,7 +11,11 @@ var React = require('react');
 //refacto to stateless functional component
 var Examples = (props) => {
   return (
-    <h3>Examples Component</h3>
+    <div>
+      <h3>Examples Component</h3>
+      <p>Welcome to examples pages</p>
+    </div>
+
   )
 };
 
